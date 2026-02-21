@@ -35,7 +35,6 @@ for /l %%i in (1,1,25) do (
     ping localhost -n 1 >nul
 )
 endlocal
-exit /b
 
 :: ===== LOGIN =====
 :login
